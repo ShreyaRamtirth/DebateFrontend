@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+<g xmlns="http://www.w3.org/2000/svg">
+	<g>
+		<g>
+			<g>
+				<g>
+					<g>
+						<g>
+							<g>
+								<g>
+									<g>
+										<circle style="" cx="256" cy="256" r="256" fill="#ffb000" data-original="#4ab8f7" class=""/>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</g>
+	<path style="" d="M511.785,266.073l-70.302-70.302l-30.707,20.015L255.905,61.058l-6.652,159.755L70.517,195.771   l140.5,140.5l-69.652,77.548l97.603,97.603C244.6,511.792,250.275,512,256,512C394.01,512,506.492,402.786,511.785,266.073z" fill="#ff9300" data-original="#368dcf" class=""/>
+	<g>
+		<polygon style="" points="255.905,61.058 313.317,177.148 441.483,195.771 348.742,286.172 370.635,413.819     255.905,353.603 141.365,413.819 163.259,286.172 70.517,195.771 198.683,177.148   " fill="#323941" data-original="#ffc200" class=""/>
+	</g>
+	<g>
+		<polygon style="" points="441.483,195.771 313.317,177.147 255.905,61.058 255.905,61.058 255.905,353.603     255.905,353.603 370.635,413.819 348.741,286.172   " fill="#323941" data-original="#ff8b00" class=""/>
+	</g>
+	<g>
+		<circle style="" cx="256" cy="256" r="67" fill="#ffffff" data-original="#fe8205" class=""/>
+	</g>
+	<g>
+		<path style="" d="M256,189c-0.032,0-0.063,0.002-0.095,0.002v133.995c0.032,0,0.063,0.002,0.095,0.002    c37.003,0,67-29.997,67-67C323,218.997,293.003,189,256,189z" fill="#ffffff" data-original="#fe6a16" class=""/>
+	</g>
+	<g>
+		<circle style="" cx="256" cy="256" r="34.606" fill="#323941" data-original="#ffda00" class=""/>
+	</g>
+	<g>
+		<path style="" d="M256,221.394c-0.032,0-0.063,0.002-0.095,0.002v69.207c0.032,0,0.063,0.002,0.095,0.002    c19.112,0,34.606-15.493,34.606-34.606S275.112,221.394,256,221.394z" fill="#323941" data-original="#ffc200" class=""/>
+	</g>
+</g>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</g></svg>
