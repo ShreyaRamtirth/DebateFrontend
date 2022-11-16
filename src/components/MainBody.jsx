@@ -12,139 +12,139 @@ import img8 from "../images/main-page/development-advantage-7412fcba401c62973fac
 function MainBody() {
   return (
     <div>
-      <main class="main-content main-content--all-space">
-        <div class="inner-container">
-          <div class="main-page">
-            <section class="main-page__attention">
-              <div class="main-page__attention-content">
-                <h1 class="main-page__attention-header">
+      <main className="main-content main-content--all-space">
+        <div className="inner-container">
+          <div className="main-page">
+            <section className="main-page__attention">
+              <div className="main-page__attention-content">
+                <h1 className="main-page__attention-header">
                   The real online debating experience
                 </h1>
-                <p class="main-page__attention-text">
+                <p className="main-page__attention-text">
                   DebateArt is a unique and growing community committed to the
                   idea of exchanging views and perspectives through debating.
                 </p>
-                <div class="main-page__attention-buttons">
+                <div className="main-page__attention-buttons">
                   <a
                     href="#"
-                    class="button main-page__attention-button main-page__attention-button--features"
+                    className="button main-page__attention-button main-page__attention-button--features"
                   >
                     Features
                   </a>
                   <a
                     href="#"
-                    class="button main-page__attention-button main-page__attention-button--advantages"
+                    className="button main-page__attention-button main-page__attention-button--advantages"
                   >
                     Why us
                   </a>
                 </div>
               </div>
             </section>
-            <section class="main-page__features">
-              <div class="main-page__features-content">
-                <h2 class="main-page__features-header">Features</h2>
-                <p class="main-page__features-text">
+            <section className="main-page__features">
+              <div className="main-page__features-content">
+                <h2 className="main-page__features-header">Features</h2>
+                <p className="main-page__features-text">
                   The best feature that we offer is an incredible community of
                   smart and interesting people, but there is more ...
                 </p>
-                <div class="main-page__features-cards">
-                  <div class="main-page__features-card">
-                    <div class="main-page__features-card-icon">
+                <div className="main-page__features-cards">
+                  <div className="main-page__features-card">
+                    <div className="main-page__features-card-icon">
                       <img
                         src={img1}
                         alt="Debate"
-                        class="main-page__features-card-img"
+                        className="main-page__features-card-img"
                       />
                     </div>
-                    <div class="main-page__features-card-content">
-                      <h3 class="main-page__features-card-header">Debates</h3>
-                      <p class="main-page__features-card-text">
+                    <div className="main-page__features-card-content">
+                      <h3 className="main-page__features-card-header">Debates</h3>
+                      <p className="main-page__features-card-text">
                         One-on-one debates with a large diversity of settings
                         for ultimate flexibility
                       </p>
                     </div>
                   </div>
-                  <div class="main-page__features-card">
-                    <div class="main-page__features-card-icon">
+                  <div className="main-page__features-card">
+                    <div className="main-page__features-card-icon">
                       <img
                         src={img0}
                         alt="Forum"
-                        class="main-page__features-card-img"
+                        className="main-page__features-card-img"
                       />
                     </div>
-                    <div class="main-page__features-card-content">
-                      <h3 class="main-page__features-card-header">Forum</h3>
-                      <p class="main-page__features-card-text">
-                        A classic forum with all familiar features for those who
+                    <div className="main-page__features-card-content">
+                      <h3 className="main-page__features-card-header">Forum</h3>
+                      <p className="main-page__features-card-text">
+                        A classNameic forum with all familiar features for those who
                         prefer discussions without formats
                       </p>
                     </div>
                   </div>
-                  <div class="main-page__features-card">
-                    <div class="main-page__features-card-icon">
+                  <div className="main-page__features-card">
+                    <div className="main-page__features-card-icon">
                       <img
                         src={img3}
                         alt="Leaderboards"
-                        class="main-page__features-card-img"
+                        className="main-page__features-card-img"
                       />
                     </div>
-                    <div class="main-page__features-card-content">
-                      <h3 class="main-page__features-card-header">
+                    <div className="main-page__features-card-content">
+                      <h3 className="main-page__features-card-header">
                         Leaderboards
                       </h3>
-                      <p class="main-page__features-card-text">
+                      <p className="main-page__features-card-text">
                         Informative leaderboards for raising the competitive
                         spirit and inflating egos, but mostly the latter
                       </p>
                     </div>
                   </div>
-                  <div class="main-page__features-card">
-                    <div class="main-page__features-card-icon">
+                  <div className="main-page__features-card">
+                    <div className="main-page__features-card-icon">
                       <img
                         src={img2}
                         alt="Messages"
-                        class="main-page__features-card-img"
+                        className="main-page__features-card-img"
                       />
                     </div>
-                    <div class="main-page__features-card-content">
-                      <h3 class="main-page__features-card-header">
+                    <div className="main-page__features-card-content">
+                      <h3 className="main-page__features-card-header">
                         Private messaging
                       </h3>
-                      <p class="main-page__features-card-text">
+                      <p className="main-page__features-card-text">
                         Simple real-time messaging system for private
                         communication between the members
                       </p>
                     </div>
                   </div>
-                  <div class="main-page__features-card">
-                    <div class="main-page__features-card-icon">
+                  <div className="main-page__features-card">
+                    <div className="main-page__features-card-icon">
                       <img
                         src={img4}
                         alt="Medal"
-                        class="main-page__features-card-img"
+                        className="main-page__features-card-img"
                       />
                     </div>
-                    <div class="main-page__features-card-content">
-                      <h3 class="main-page__features-card-header">
+                    <div className="main-page__features-card-content">
+                      <h3 className="main-page__features-card-header">
                         Achievements
                       </h3>
-                      <p class="main-page__features-card-text">
+                      <p className="main-page__features-card-text">
                         A powerful medal rewarding system, as if having only
                         leaderboards is not enough
                       </p>
                     </div>
                   </div>
-                  <div class="main-page__features-card">
-                    <div class="main-page__features-card-icon">
+                  <div className="main-page__features-card">
+                    <div className="main-page__features-card-icon">
                       <img
                         src={img5}
                         alt="Handshake"
-                        class="main-page__features-card-img"
+                        className="main-page__features-card-img"
                       />
                     </div>
-                    <div class="main-page__features-card-content">
-                      <h3 class="main-page__features-card-header">Friends</h3>
-                      <p class="main-page__features-card-text">
+                    <div className="main-page__features-card-content">
+                      <h3 className="main-page__features-card-header">Friends</h3>
+                      <p className="main-page__features-card-text">
                         The ability to add friends and always stay up to date
                         with their achievements and activities
                       </p>
@@ -153,65 +153,65 @@ function MainBody() {
                 </div>
               </div>
             </section>
-            <section class="main-page__advantages">
-              <div class="main-page__advantages-content">
-                <h2 class="main-page__advantages-header">
+            <section className="main-page__advantages">
+              <div className="main-page__advantages-content">
+                <h2 className="main-page__advantages-header">
                   What makes us different?
                 </h2>
-                <p class="main-page__advantages-text">
+                <p className="main-page__advantages-text">
                   There are a lot of aspects to building a great website, and
                   providing all the necessary features is but one of them. That
                   is why we made it our mission to go far beyond that and create
                   something truly exceptional.
                 </p>
-                <div class="main-page__advantages-cards">
-                  <div class="main-page__advantages-card">
-                    <div class="main-page__advantages-card-icon">
+                <div className="main-page__advantages-cards">
+                  <div className="main-page__advantages-card">
+                    <div className="main-page__advantages-card-icon">
                       <img
                         src={img6}
                         alt="People"
-                        class="main-page__advantages-card-img"
+                        className="main-page__advantages-card-img"
                       />
                     </div>
-                    <h3 class="main-page__advantages-card-header">
+                    <h3 className="main-page__advantages-card-header">
                       Community-driven
                     </h3>
-                    <p class="main-page__advantages-card-text">
+                    <p className="main-page__advantages-card-text">
                       Due to being completely independent, we have the ultimate
                       freedom to set our own goals and priorities, that is why
                       the community plays such an important role in the
                       project's development
                     </p>
                   </div>
-                  <div class="main-page__advantages-card">
-                    <div class="main-page__advantages-card-icon">
+                  <div className="main-page__advantages-card">
+                    <div className="main-page__advantages-card-icon">
                       <img
                         src={img7}
                         alt="Shield"
-                        class="main-page__advantages-card-img"
+                        className="main-page__advantages-card-img"
                       />
                     </div>
-                    <h3 class="main-page__advantages-card-header">
+                    <h3 className="main-page__advantages-card-header">
                       Moderation
                     </h3>
-                    <p class="main-page__advantages-card-text">
+                    <p className="main-page__advantages-card-text">
                       To meet the highest standards of content quality, a team
                       of community-approved moderators works day and night to
                       make sure that intellectual discussions stay intellectual
                     </p>
                   </div>
-                  <div class="main-page__advantages-card">
-                    <div class="main-page__advantages-card-icon">
+                  <div className="main-page__advantages-card">
+                    <div className="main-page__advantages-card-icon">
                       <img
                         src={img8}
                         alt="Tools"
-                        class="main-page__advantages-card-img"
+                        className="main-page__advantages-card-img"
                       />
                     </div>
-                    <h3 class="main-page__advantages-card-header">
+                    <h3 className="main-page__advantages-card-header">
                       Active development
                     </h3>
-                    <p class="main-page__advantages-card-text">
+                    <p className="main-page__advantages-card-text">
                       We embrace the fact that the world is changing rapidly and
                       to remain relevant and competitive, we tirelessly work on
                       adding new and improving existing features

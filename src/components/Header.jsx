@@ -38,14 +38,7 @@ function Header() {
                 </li>
               </ul>
             </nav>
-         
             <div className="main-header__search main-header__search--shrinkable">
-              <form
-                action="https://www.debateart.com/search?type=debates"
-                className="main-header__search-form"
-                method="get"
-                role="search"
-              >
                 <input name="type" type="hidden" value="debates" />
                 <input
                   aria-label="Search"
@@ -56,7 +49,6 @@ function Header() {
                   spellCheck="false"
                   type="text"
                 />
-              </form>
             </div>
             <div className="main-header__auth-buttons">
              
@@ -64,15 +56,7 @@ function Header() {
             <Link to="/signup"  className="button main-header__auth-button">Sign up</Link>
             
             </div>
-            <div className="main-header__offcanvas-toggle-wrap">
-              <a
-                data-uk-navbar-toggle-icon
-                data-uk-toggle
-                className="main-header__offcanvas-toggle  uk-navbar-toggle"
-                href="#main-offcanvas"
-                aria-label="Open hidden navigation"
-              ></a>
-            </div>
+            
           </div>
         </div>
       </header>
