@@ -224,33 +224,33 @@ function DebatingScreen() {
                 <div className="debate-show__tab-panels">
 
                 
-                <div class="debate-show__new-comment debate-show__state-box">
-<div class="debate-show__state-box-header debate-show__state-box-item">
-<i aria-hidden="true" class="debate-show__state-box-header-icon fa fa-comment"></i>
-<div class="debate-show__state-box-header-text debate-show__state-box-header-text--wide">
+                <div className="debate-show__new-comment debate-show__state-box">
+<div className="debate-show__state-box-header debate-show__state-box-item">
+<i aria-hidden="true" className="debate-show__state-box-header-icon fa fa-comment"></i>
+<div className="debate-show__state-box-header-text debate-show__state-box-header-text--wide">
 New comment
 </div>
 </div>
-<div class="debate-show__state-box-body">
-<div class="debate-show__state-box-item">
-<div class="debate-show__tab-action debate-show__tab-action--inactive" aria-hidden="true">
-<p class="debate-show__tab-action-text">
+<div className="debate-show__state-box-body">
+<div className="debate-show__state-box-item">
+<div className="debate-show__tab-action debate-show__tab-action--inactive" aria-hidden="true">
+<p className="debate-show__tab-action-text">
 To open a new comment form, click the button below:
 </p>
-<a href="#" class="button debate-show__tab-action-button" aria-controls="debate-show__new-comment-form-wrap" aria-expanded="true">
+<a href="#" className="button debate-show__tab-action-button" aria-controls="debate-show__new-comment-form-wrap" aria-expanded="true">
 Add a new comment
 </a>
 </div>
-<div class="debate-show__tab-action-target" id="debate-show__new-comment-form-wrap" aria-hidden="false">
+<div className="debate-show__tab-action-target" id="debate-show__new-comment-form-wrap" aria-hidden="false">
 
-<div class="debate-show__new-comment-form-row">
-<label for="debate_comment_text" class="debate-show__new-comment-form-label">
+<div className="debate-show__new-comment-form-row">
+<label htmlFor="debate_comment_text" className="debate-show__new-comment-form-label">
 Text
 </label>
-<textarea class="debate-show__new-comment-form-input debate-show__new-comment-form-input--text" id="debate_comment_text" name="debate_comment[text]" placeholder="Enter a comment text" required="required"></textarea>
+<textarea className="debate-show__new-comment-form-input debate-show__new-comment-form-input--text" id="debate_comment_text" name="debate_comment[text]" placeholder="Enter a comment text" required="required"></textarea>
 </div>
-<div class="debate-show__new-comment-form-submit-button-wrap">
-<button name="button" type="submit" class="button debate-show__new-comment-form-submit-button" data-has-loader="true" data-disable-on-request="true" data-enable-on-response="true">
+<div className="debate-show__new-comment-form-submit-button-wrap">
+<button name="button" type="submit" className="button debate-show__new-comment-form-submit-button" data-has-loader="true" data-disable-on-request="true" data-enable-on-response="true">
 Create comment
 </button>
 </div>
@@ -261,26 +261,26 @@ Create comment
 </div>
 </div>
                 <div
-                  class="debate-show__argument"
+                  className="debate-show__argument"
                   data-number="2"
-                  itemscope
-                  itemprop="hasPart"
-                  itemtype="http://schema.org/Message"
+                  itemScope
+                  itemProp="hasPart"
+                  itemType="http://schema.org/Message"
                 >
-                  <div class="debate-show__argument-author  ">
-                    <div class="debate-show__argument-author-details">
-                      <div class="debate-show__argument-author-username">
+                  <div className="debate-show__argument-author  ">
+                    <div className="debate-show__argument-author-details">
+                      <div className="debate-show__argument-author-username">
                         <a
                           href="../profiles/Mall.html"
-                          class="debate-show__argument-author-username-link"
+                          className="debate-show__argument-author-username-link"
                         >
                           Mall
                         </a>
                       </div>
-                      <div class="debate-show__argument-author-timestamp">
+                      <div className="debate-show__argument-author-timestamp">
                         <time
-                          datetime="2022-11-05T14:49:30Z"
-                          itemprop="datePublished"
+                          dateTime="2022-11-05T14:49:30Z"
+                          itemProp="datePublished"
                         >
                           11.05.22 02:49PM
                         </time>
@@ -288,7 +288,7 @@ Create comment
                     </div>
                   </div>
 
-                  <div class="debate-show__argument-text" itemprop="text">
+                  <div className="debate-show__argument-text" itemProp="text">
                     <div>
                       I want to quote from Wikipedia here about the Hippocratic
                       oath.tracting harm, that same doctor, same day will take

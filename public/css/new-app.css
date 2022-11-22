@@ -15502,3 +15502,16 @@ nav .profile-details i{
     width: calc(100% - 60px);
   }
 }
+
+.text-danger{
+  color: red;
+}
+
+.profile_name{
+  background-color: #fb8c00;
+  color: #000;
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}

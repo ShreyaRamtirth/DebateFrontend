@@ -1,18 +1,21 @@
 import React from "react";
 import img1 from "../images/logos/witness-97e89c0159dd49799b40cdc4204b016d24ad.svg?vsn=d";
 import img2 from "../images/logos/debate-art-bdbdabf603b44edec89b19a40f6c481a24ad.png?vsn=d";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import cookieCutter from 'cookie-cutter';
+
 function Header() {
+  const navigate = useNavigate();
+  const handleLogout=()=>{
+    cookieCutter.set("jwt","");
+    navigate('/');
+  }
   return (
     <div>
       <header className="main-header">
         <div className="inner-container">
           <div className="main-header__inner">
-            <a
-              href="#"
-              className="main-header__logo-link"
-              title="Go to the main page"
-            >
+           
               <img
                 alt="Witness stand"
                 className="main-header__logo-icon-image"
@@ -23,7 +26,7 @@ function Header() {
                 className="main-header__logo-text-image"
                 src={img2}
               />
-            </a>
+            
            
             <nav className="main-header__nav-links-list-wrap">
               <ul className="main-header__nav-links-list">
@@ -50,12 +53,18 @@ function Header() {
                   type="text"
                 />
             </div>
+            { cookieCutter.get("jwt") == null || cookieCutter.get("jwt") == ""? 
             <div className="main-header__auth-buttons">
              
+  
             <Link to="/login" className="button main-header__auth-button">Log in</Link>
             <Link to="/signup"  className="button main-header__auth-button">Sign up</Link>
             
-            </div>
+            </div>: <div className="main-header__auth-buttons">
+           <div className="profile_name"> {cookieCutter.get("name")}
+           </div>
+           <div  className="button main-header__auth-button" onClick={handleLogout}> Logout</div>
+            </div> }
             
           </div>
         </div>
